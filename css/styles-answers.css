@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('../assets/fonts/PermanentMarker.ttf');
+    /* IE9 Compat Modes */
+    src: url('../assets/fonts/PermanentMarker.ttf') format('truetype'); /* Safari, Android, iOS */
+    /* Legacy iOS */
+}
+
+nav a.navbar-brand {
+    color: #fff !important;
+    font-family: 'PermanentMarker', Fallback, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav a.navbar-brand:hover {
+    color: hsla(0,0%,100%,.5) !important;
+}
+
+a.nav-link {
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+}
+
+a.nav-link:hover {
+    background-color: hsla(0,0%,100%,.5) !important;
+    color: #fff !important;
+    border: 2px solid  hsla(0,0%,100%,.5);
+    transition: 0.8s ease-in-out;
+}
+
+footer div span {
+    margin-left: 10rem;
+}
+
+footer {
+    background-color: rgb(104, 104, 141);
+    height: 70px;
+    color: white;
+    padding: 20px 10px 20px 10px;
+}

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('../assets/fonts/PermanentMarker.ttf');
+    /* IE9 Compat Modes */
+    src: url('../assets/fonts/PermanentMarker.ttf') format('truetype'); /* Safari, Android, iOS */
+    /* Legacy iOS */
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    background: url('../assets/img/election-background.jpg');
+    background-size: cover;
+    top: -20%;
+    left: 32%;
+    transform: translateY(-50%);
+    transition: 1.8s ease-in-out;
+}
+
+nav a.navbar-brand {
+    color: rgb(14, 90, 14) !important;
+    font-family: 'PermanentMarker', Fallback, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a.nav-link {
+    color: rgb(14, 90, 14) !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 2px solid green;
+    border-radius: 2rem;
+}
+
+a.nav-link:hover {
+    background-color: rgb(14, 90, 14);
+    color: #fff !important;
+    transition: 0.8s ease-in-out;
+}
+
+main {
+    margin: 10% 20px 10% 0;
+}
+
+.polling-result {
+    width: 30%;
+    border: 2px solid green;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(14, 90, 14);
+    color: #fff;
+    padding: 10px;
+}
+
+.lga-result {
+    width: 40%;
+    margin-top: 2rem;
+    border: 2px solid green;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(14, 90, 14);
+    color: #fff;
+    padding: 10px;
+}
+
+.upload-result {
+    width: 45%;
+    margin-top: 2rem;
+    border: 2px solid green;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(14, 90, 14);
+    color: #fff;
+    padding: 10px;
+}
+
+.result:hover {
+    background-color: #fff;
+    color: rgb(14, 90, 14);
+    transition: 0.8s ease-in-out;
+}
+
+a.page-links {
+    text-decoration: none;
+}
+
+a.page-links:hover {
+    text-decoration: none;
+}
+
+footer div span {
+    margin-left: 10rem;
+}
+
+footer {
+    background-color: rgb(104, 104, 141);
+    height: 100px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
